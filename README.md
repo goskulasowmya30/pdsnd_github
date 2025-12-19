@@ -16,4 +16,7 @@ Include the files used to
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
 
 ## Project
-this project is regarding bikeshare in US
+this project is regarding bikeshare in US for city Chicago, Washington, Newyork
+
+## comments
+Improve comments

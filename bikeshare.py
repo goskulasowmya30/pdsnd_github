@@ -25,7 +25,7 @@ def get_filters():
     # get user input for day of week (all, monday, tuesday, ... sunday)
 
 
-    print('-'*40)
+    print('-'*30)
     return city, month, day
 
 
@@ -61,7 +61,7 @@ def time_stats(df):
 
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    print('-'*50)
 
 
 def station_stats(df):
@@ -80,13 +80,13 @@ def station_stats(df):
 
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    print('-'*50)
 
 
 def trip_duration_stats(df):
     """Displays statistics on the total and average trip duration."""
 
-    print('\nCalculating Trip Duration...\n')
+    print('\nCalculating Trip Duration in seconds...\n')
     start_time = time.time()
 
     # display total travel time
@@ -115,7 +115,7 @@ def user_stats(df):
 
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    print('-'*50)
 
 
 def main():

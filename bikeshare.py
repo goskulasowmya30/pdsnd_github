@@ -96,7 +96,7 @@ def trip_duration_stats(df):
 
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*50)
+    print('-'*40)
 
 
 def user_stats(df):
